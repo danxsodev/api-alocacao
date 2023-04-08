@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.sp.gov.etec.alocacao.model.Client;
-import br.sp.gov.etec.alocacao.repository.CarRepository;
 import br.sp.gov.etec.alocacao.repository.ClientRepository;
 import jakarta.security.auth.message.callback.PrivateKeyCallback.Request;
 
