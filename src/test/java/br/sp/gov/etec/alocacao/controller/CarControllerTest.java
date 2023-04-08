@@ -1,6 +1,8 @@
 package br.sp.gov.etec.alocacao.controller;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class CarControllerTest {
 	CarController controller;
 	
 	@Test
-	public void listCarsTest( ) {
+	public void listCarsTest() {
 		List <Car> cars = controller.listCars();
 		
 		assertNotNull(cars);
