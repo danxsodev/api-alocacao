@@ -22,7 +22,7 @@ public class CarController {
 	CarRepository repository;
 		
 	@GetMapping("listar-carros")
-	public List<Car> listCars(){
+	public List<Car> listCars(){		
 		return repository.findAll();
 	}
 	
