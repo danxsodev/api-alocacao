@@ -18,6 +18,14 @@ public class Car {
 	private String licensePlate;
 	private Long chassi;
 	
+	public Car(String model, String color,  String licensePlate, Long chassi) {
+		super();
+		this.model = model;
+		this.color = color;
+		this.licensePlate = licensePlate;
+		this.chassi = chassi;
+	}
+	
 	public Long getId() {
 		return id;
 	}
