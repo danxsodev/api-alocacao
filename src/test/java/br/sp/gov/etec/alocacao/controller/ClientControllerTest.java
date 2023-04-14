@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+import br.sp.gov.etec.alocacao.controller.ClientController;
 import br.sp.gov.etec.alocacao.model.Client;
 
 @ExtendWith(SpringExtension.class)
@@ -17,7 +18,7 @@ public class ClientControllerTest {
 	ClientController controller;
 	
 	@Test
-	public void listClientTest( ) {
+	public void listClientTest() {
 		List <Client> clients = controller.listClient();
 		
 		assertNotNull(clients);
