@@ -7,5 +7,5 @@ import br.sp.gov.etec.alocacao.model.Car;
 
 @Repository
 public interface CarRepository extends JpaRepositoryImplementation<Car, Long>{
-	   
+
 }
