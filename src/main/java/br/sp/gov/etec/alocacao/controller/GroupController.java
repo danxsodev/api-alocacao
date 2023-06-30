@@ -21,6 +21,7 @@ import br.sp.gov.etec.alocacao.repository.CarRepository;
 import br.sp.gov.etec.alocacao.model.Group;
 import br.sp.gov.etec.alocacao.repository.GroupRepository;
 
+@RestController
 public class GroupController {
 
 	@Autowired 
