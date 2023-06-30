@@ -18,6 +18,18 @@ public class Client {
 	private String phone;
 	private String mail;
 		
+	public Client() {
+		super(); 
+	}
+	
+	public Client(String name, String cpf, String phone, String mail) {
+		super();
+		this.name = name;
+		this.cpf = cpf;
+		this.phone = phone;
+		this.mail = mail;
+	}
+	
 	public Long getId() {
 		return id;
 	}
