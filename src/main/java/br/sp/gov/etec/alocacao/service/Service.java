@@ -5,6 +5,6 @@ import br.sp.gov.etec.alocacao.model.Allocation;
 
 public interface Service {
 	
-	public Allocation calcular(AllocationDto allocationDto);
+	public Allocation calculate(AllocationDto allocationDto);
 
 }
